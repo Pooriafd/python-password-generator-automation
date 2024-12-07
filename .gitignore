@@ -1,0 +1,42 @@
+# Python
+*.py[cod]             # Byte-compiled / optimized / DLL files
+__pycache__/          # Python cache directories
+*.so                  # Shared object files
+*.pyo                  # Optimized Python files
+*.pdb                  # Python Debugger files
+
+# Virtual Environment
+venv/                  # Virtual environment directories
+.env                   # Environment variable file
+*.env                 # Environment variable file
+
+# PyCharm
+.idea/                # PyCharm project settings
+*.iml                 # PyCharm module file
+.idea/.idea          # Idea project specific files
+
+# macOS
+.DS_Store             # macOS Finder file
+.AppleDouble          # macOS double file
+.LSOverride           # macOS Finder file
+
+# Windows
+Thumbs.db             # Windows image thumbnail cache
+ehthumbs.db           # Windows media file cache
+
+# Logs
+*.log                 # Log files
+
+# Test Coverage
+.coverage             # Coverage tool file
+*.coveragerc          # Coverage tool configuration file
+
+# PyInstaller
+*.spec                # PyInstaller spec file
+
+# Jupyter Notebooks
+.ipynb_checkpoints/   # Jupyter notebook checkpoints
+
+# mypy
+.mypy_cache/          # Mypy type checking cache
+.dmypy.json           # Mypy persistent state
